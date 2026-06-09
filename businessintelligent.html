@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Firmbee.com - Free Project Management Platform for remote teams">
+  <title>Clear blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://kit.fontawesome.com/0e035b9984.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="82">
+  <header id="home">
+    <nav id="#navbar" class="navbar dark dark navbar-expand-lg position-fixed top-0 w-100 py-2">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/cayblog.png" alt="" width="100" height="100"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="index.html">home</a>
+            <a class="nav-link" href="about.html">about</a>
+            <a class="nav-link" href="contact.html">contact</a>
+            <a class="nav-link" href="blog.html">Blog</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row mainmargin justify-content-center">
+        <div class="single-post col-md-8">
+          <h2 class="underscore">Business Intelligent with Star Schema</h2>
+          <div class="post-meta">
+            <span><i class="far fa-user"></i> Posted by Chin Chong Yong</span><span><i class="far fa-calendar"></i>
+              2026</span>
+          </div>
+          <img src="img/powerbi.png" alt="PowerBI">          
+          <p>This project, titled "Retail Sales Intelligence System," was developed to address the limitations of traditional transactional databases by converting raw operational data into actionable strategic intelligence. The team identified several critical challenges, including high query latency when performing complex aggregations across millions of rows, a lack of multidimensional insights, and poor data quality—such as null values and inconsistencies—that hindered decision-making.</p>
+          <h5>ETL Process:</h5>
+          <ul class="list-in-text">
+            <li>Extract: Data is pulled from various transactional sources (such as the retail chain's five relational tables: Customers, Products, Sales, Stores, and Staff).</li>
+            <li>Transform: The data is cleaned by resolving structural inconsistencies, handling null values, and fixing data quality issues.</li>
+            <li>Load: The refined, accurate data is then loaded into the target multidimensional model, such as a star or snowflake schema.</li>
+          </ul>
+          <h5>Features of the BI System:</h5>
+          <ul class="list-in-text">
+            <li>Multidimensional Modeling: It converts transactional data into optimized star or snowflake schemas with defined hierarchies—such as time, geography, and product categories—to facilitate fast query performance.</li>
+            <li>OLAP Capabilities: The system employs Online Analytical Processing (OLAP) features, which allow users to explore data deeply through operations like roll-up, drill-down, slice, and dice.</li>
+            <li>Interactive Dashboards: It provides visual reporting interfaces that are interactive, enabling stakeholders to explore specific metrics—such as sales by region, top products, or demographic spending—to make data-informed decisions.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <div class="fb2022-copy">Fbee 2022 copyright</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <!-- Theme Toggle Button -->
+  <button id="theme-toggle" class="theme-toggle-btn" title="Toggle dark/light mode">
+    <i class="fas fa-moon"></i>
+  </button>
+</body>
+
+</html>
