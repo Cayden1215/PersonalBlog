@@ -35,6 +35,8 @@ About Page
 
 Contact Form
 <img width="1912" height="1020" alt="image" src="https://github.com/user-attachments/assets/2f3ed351-d35f-4a65-810f-798ce824855e" />
+<img width="1742" height="888" alt="image" src="https://github.com/user-attachments/assets/dd37df8c-94df-40e5-ae97-c1a03622391e" />
+
 
 Blog Page
 <img width="1912" height="1023" alt="image" src="https://github.com/user-attachments/assets/a1cb476b-2a7d-4daa-81f6-af3bdfc2ff3a" />
