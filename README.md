@@ -20,3 +20,22 @@ JavaScript for DOM manipulation, theme switching, and scroll events.
 Bootstrap for grid layouts, cards, and UI components.
 
 AOS (Animate On Scroll) for scroll-based animations.
+
+Screenshot
+Home Page
+<img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/baac08bf-9731-42ed-8b9a-ea69c89745c1" />
+
+About Page
+<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/70b44752-07f0-453c-b251-129f0448ed3a" />
+<img width="1913" height="1015" alt="image" src="https://github.com/user-attachments/assets/8691733f-6fb1-4bfc-ae59-e576ff5f48e3" />
+
+Contact Form
+<img width="1912" height="1020" alt="image" src="https://github.com/user-attachments/assets/2f3ed351-d35f-4a65-810f-798ce824855e" />
+
+Blog Page
+<img width="1912" height="1023" alt="image" src="https://github.com/user-attachments/assets/a1cb476b-2a7d-4daa-81f6-af3bdfc2ff3a" />
+
+Posts 
+<img width="1911" height="1020" alt="image" src="https://github.com/user-attachments/assets/58d30aca-9a89-4aed-93c7-2ffb91d6d0fa" />
+
+
